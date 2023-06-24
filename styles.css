@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(204, 202, 202);
+    /* width: 322px; */
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 31px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: rgb(238, 255, 0); */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infoContainer{
+    /* background-color: rgb(240, 78, 105); */
+    height: 58vh;
+    width: 70vw;
+    margin: 116px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.hello{
+    font-size: 55px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about{
+    font-size: 30px;
+}
+
+.moreabout{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 20px;
+}
+
+.buttons{
+    margin-top: 26px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.btn-sm{
+    font-size: 16px;
+    padding: 10px 19px;
+    margin: 12px 22px;
+}
+
+
+.devpic img{
+    height: 58vh;
+}
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 80px;
+}
+.contactform h1{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center  ;
+}
+
+.contactform form div{
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 6px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0;
+}
+
+.bg{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center ;
+    font-size: 41px;
+    margin: 46px auto;
+}
+
+.education{   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.school {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}   
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+ }
+ 
+.closemark{
+    margin-left: 200px;
+}
+
+
+@media (max-width: 1200px) {
+    /* *{
+    background-color: dodgerblue;
+ } */
+ /* .sidebar{
+    transform: translate(-443px, 0px);
+    position: absolute;
+ } */
+}
+  
